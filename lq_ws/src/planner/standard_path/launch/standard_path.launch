@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="standard_path" name="standard_path_test" type="standard_path_test" output="screen" />
+  <!-- <node pkg="rviz" name="rviz" type="rviz" /> -->
+
+</launch>                        

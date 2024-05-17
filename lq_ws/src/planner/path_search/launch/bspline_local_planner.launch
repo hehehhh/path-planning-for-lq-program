@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="lq_yg_map_server" type="test_map_pub_node.py" name="test_map_pub_node" output="screen"></node>
+
+</launch>

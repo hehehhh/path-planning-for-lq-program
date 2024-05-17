@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="taskmanager" name="manager" type="manager" output="screen" />
+
+  <node pkg="lq_yg_map_server" type="map_server_node" name="map_server_node" output="screen">
+
+  </node>
+
+</launch>

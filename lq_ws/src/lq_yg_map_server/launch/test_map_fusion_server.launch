@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="lq_yg_map_server" type="test_map_pub_node.py" name="test_map_pub_node" output="screen"></node>
+  <node pkg="lq_yg_map_server" type="test_obstacle_pub_node.py" name="test_obstacle_pub_node" output="screen"></node>
+  <node pkg="lq_yg_map_server" name="map_server_node" type="map_server_node" output="screen" />
+  <node pkg="path_search" name="path_search_test" type="path_search_test" output="screen" />
+
+  <node pkg="rviz" name="rviz" type="rviz" />
+
+</launch>
