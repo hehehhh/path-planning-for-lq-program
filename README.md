@@ -5,7 +5,7 @@ ros package for path planning and map_fusion which were used in lq program.
 
 1.
 ```shell
-git clone  
+git clone https://github.com/hehehhh/path-planning-for-lq-program.git
 ```
 
 2.
