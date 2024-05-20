@@ -8,7 +8,7 @@ ros package for path planning and map_fusion which were used in lq program.
     <img width="100px" height="20px" src="https://img.shields.io/badge/ROS-noetic-blue?logo=ROS&ROS=noetic" alt="ROS" />
 </p>
 
-## quike start
+## Quike Start
 
 1.
 ```shell
