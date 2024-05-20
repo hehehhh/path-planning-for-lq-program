@@ -32,6 +32,9 @@ roslaunch lq_yg_map_server test_map_fusion_server.launch
 source ./devel/setup.bash
 roslaunch lq_yg_map_server map_fusion_server.launch 
 ```
+<p align="center">
+  <img src="asserts/8-1.png">
+</p>
 
 #### a local planner using b-spline curve search
 ```shell
