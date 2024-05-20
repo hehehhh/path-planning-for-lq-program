@@ -25,3 +25,25 @@ souce ./devel/setup.bash
 ```shell
 roslaunch lq_yg_map_server test_map_fusion_server.launch
 ```
+
+## Document
+#### LQ rosnode
+```shell
+source ./devel/setup.bash
+roslaunch lq_yg_map_server map_fusion_server.launch 
+```
+
+#### a local planner using b-spline curve search
+```shell
+source ./devel/setup.bash
+roslaunch lq_yg_map_server test_map_fusion_server.launch
+rosrun path_search bspline_local_planner_node 
+```
+
+#### Standard path with Dubins curve
+```shell
+rosrun standard_path standard_path_test
+```
+
+
+
