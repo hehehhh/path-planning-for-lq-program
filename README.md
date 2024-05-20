@@ -36,12 +36,33 @@ roslaunch lq_yg_map_server map_fusion_server.launch
   <img src="asserts/8-1.png">
 </p>
 
+<p align="center">
+  <img src="asserts/8-2.png">
+</p>
+
+<p align="center">
+  <img src="asserts/8-3.png">
+</p>
+
+<p align="center">
+  <img src="asserts/8-4.png">
+</p>
+
+<p align="center">
+  <img src="asserts/8-5.png">
+</p>
+
+<p align="center">
+  <img src="asserts/8-6.png">
+</p>
+
 #### a local planner using b-spline curve search
 ```shell
 source ./devel/setup.bash
 roslaunch lq_yg_map_server test_map_fusion_server.launch
 rosrun path_search bspline_local_planner_node 
 ```
+
 
 #### Standard path with Dubins curve
 ```shell
